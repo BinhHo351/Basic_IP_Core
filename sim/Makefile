@@ -45,46 +45,7 @@ regress:
 	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 8p $(REGRESS_LIST)`
 	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 9p $(REGRESS_LIST)`
 	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 10p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 11p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 12p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 13p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 14p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 15p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 16p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 17p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 18p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 19p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 20p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 21p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 22p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 23p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 24p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 25p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 26p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 27p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 28p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 29p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 30p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 31p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 32p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 33p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 34p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 35p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 36p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 37p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 38p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 39p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 40p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 41p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 42p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 43p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 44p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 45p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 46p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 47p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 48p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 49p $(REGRESS_LIST)`
-	make run TESTNAME=`cat $(REGRESS_LIST) |sed -n 50p $(REGRESS_LIST)`
+
 	
 regress_cov:
 	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 1p $(REGRESS_LIST)`
@@ -97,46 +58,7 @@ regress_cov:
 	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 8p $(REGRESS_LIST)`
 	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 9p $(REGRESS_LIST)`
 	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 10p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 11p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 12p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 13p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 14p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 15p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 16p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 17p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 18p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 19p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 20p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 21p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 22p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 23p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 24p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 25p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 26p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 27p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 28p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 29p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 30p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 31p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 32p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 33p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 34p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 35p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 36p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 37p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 38p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 39p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 40p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 41p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 42p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 43p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 44p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 45p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 46p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 47p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 48p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 49p $(REGRESS_LIST)`
-	make run_cov TESTNAME=`cat $(REGRESS_LIST) |sed -n 50p $(REGRESS_LIST)`
+
 
 wave:
 	vsim -i -view vsim.wlf -do "add wave vsim:/$(TB_NAME)/*; radix -$(RADIX)" &
